@@ -60,6 +60,7 @@ public class DispatchServlet extends HttpServlet {
         TestController testController = (TestController)beanMap.get("testController");
         testController.doSth();
 
+        //mvc中需要初始化映射 暂不实现 本例仅为了帮助理解IOC原理
         initHandlerMapping();
 
     }
