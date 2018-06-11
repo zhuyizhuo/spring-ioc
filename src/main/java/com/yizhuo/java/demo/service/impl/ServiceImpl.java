@@ -10,6 +10,6 @@ import com.yizhuo.java.spring.annotation.Service;
 public class ServiceImpl implements IService{
     @Override
     public void doSth() {
-        System.out.println("123456");
+        System.out.println("ServiceImpl doSth..");
     }
 }
