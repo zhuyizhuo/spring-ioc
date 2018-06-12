@@ -24,6 +24,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Created by yizhuo on 2018/5/12.
  */
+@SuppressWarnings("serial")
 public class DispatchServlet extends HttpServlet {
 
     private Properties contextConfig = new Properties();
